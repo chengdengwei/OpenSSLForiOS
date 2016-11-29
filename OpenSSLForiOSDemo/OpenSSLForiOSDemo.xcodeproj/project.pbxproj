@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB325BD11DED338C009EAF6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB325BD01DED338C009EAF6E /* main.m */; };
+		AB325BD41DED338C009EAF6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB325BD31DED338C009EAF6E /* AppDelegate.m */; };
+		AB325BD71DED338C009EAF6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB325BD61DED338C009EAF6E /* ViewController.m */; };
+		AB325BDA1DED338C009EAF6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB325BD81DED338C009EAF6E /* Main.storyboard */; };
+		AB325BDC1DED338C009EAF6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB325BDB1DED338C009EAF6E /* Assets.xcassets */; };
+		AB325BDF1DED338C009EAF6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB325BDD1DED338C009EAF6E /* LaunchScreen.storyboard */; };
+		AB325BEA1DED338C009EAF6E /* OpenSSLForiOSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB325BE91DED338C009EAF6E /* OpenSSLForiOSDemoTests.m */; };
+		AB325BF51DED338C009EAF6E /* OpenSSLForiOSDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB325BF41DED338C009EAF6E /* OpenSSLForiOSDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB325BE61DED338C009EAF6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB325BC41DED338C009EAF6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB325BCB1DED338C009EAF6E;
+			remoteInfo = OpenSSLForiOSDemo;
+		};
+		AB325BF11DED338C009EAF6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB325BC41DED338C009EAF6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB325BCB1DED338C009EAF6E;
+			remoteInfo = OpenSSLForiOSDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB325BCC1DED338C009EAF6E /* OpenSSLForiOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenSSLForiOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB325BD01DED338C009EAF6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB325BD21DED338C009EAF6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB325BD31DED338C009EAF6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB325BD51DED338C009EAF6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB325BD61DED338C009EAF6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB325BD91DED338C009EAF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB325BDB1DED338C009EAF6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB325BDE1DED338C009EAF6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB325BE01DED338C009EAF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB325BE51DED338C009EAF6E /* OpenSSLForiOSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenSSLForiOSDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB325BE91DED338C009EAF6E /* OpenSSLForiOSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenSSLForiOSDemoTests.m; sourceTree = "<group>"; };
+		AB325BEB1DED338C009EAF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB325BF01DED338C009EAF6E /* OpenSSLForiOSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenSSLForiOSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB325BF41DED338C009EAF6E /* OpenSSLForiOSDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenSSLForiOSDemoUITests.m; sourceTree = "<group>"; };
+		AB325BF61DED338C009EAF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB325BC91DED338C009EAF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB325BE21DED338C009EAF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB325BED1DED338C009EAF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB325BC31DED338C009EAF6E = {
+			isa = PBXGroup;
+			children = (
+				AB325BCE1DED338C009EAF6E /* OpenSSLForiOSDemo */,
+				AB325BE81DED338C009EAF6E /* OpenSSLForiOSDemoTests */,
+				AB325BF31DED338C009EAF6E /* OpenSSLForiOSDemoUITests */,
+				AB325BCD1DED338C009EAF6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB325BCD1DED338C009EAF6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB325BCC1DED338C009EAF6E /* OpenSSLForiOSDemo.app */,
+				AB325BE51DED338C009EAF6E /* OpenSSLForiOSDemoTests.xctest */,
+				AB325BF01DED338C009EAF6E /* OpenSSLForiOSDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB325BCE1DED338C009EAF6E /* OpenSSLForiOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AB325BD21DED338C009EAF6E /* AppDelegate.h */,
+				AB325BD31DED338C009EAF6E /* AppDelegate.m */,
+				AB325BD51DED338C009EAF6E /* ViewController.h */,
+				AB325BD61DED338C009EAF6E /* ViewController.m */,
+				AB325BD81DED338C009EAF6E /* Main.storyboard */,
+				AB325BDB1DED338C009EAF6E /* Assets.xcassets */,
+				AB325BDD1DED338C009EAF6E /* LaunchScreen.storyboard */,
+				AB325BE01DED338C009EAF6E /* Info.plist */,
+				AB325BCF1DED338C009EAF6E /* Supporting Files */,
+			);
+			path = OpenSSLForiOSDemo;
+			sourceTree = "<group>";
+		};
+		AB325BCF1DED338C009EAF6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB325BD01DED338C009EAF6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB325BE81DED338C009EAF6E /* OpenSSLForiOSDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB325BE91DED338C009EAF6E /* OpenSSLForiOSDemoTests.m */,
+				AB325BEB1DED338C009EAF6E /* Info.plist */,
+			);
+			path = OpenSSLForiOSDemoTests;
+			sourceTree = "<group>";
+		};
+		AB325BF31DED338C009EAF6E /* OpenSSLForiOSDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB325BF41DED338C009EAF6E /* OpenSSLForiOSDemoUITests.m */,
+				AB325BF61DED338C009EAF6E /* Info.plist */,
+			);
+			path = OpenSSLForiOSDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB325BCB1DED338C009EAF6E /* OpenSSLForiOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB325BF91DED338C009EAF6E /* Build configuration list for PBXNativeTarget "OpenSSLForiOSDemo" */;
+			buildPhases = (
+				AB325BC81DED338C009EAF6E /* Sources */,
+				AB325BC91DED338C009EAF6E /* Frameworks */,
+				AB325BCA1DED338C009EAF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenSSLForiOSDemo;
+			productName = OpenSSLForiOSDemo;
+			productReference = AB325BCC1DED338C009EAF6E /* OpenSSLForiOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB325BE41DED338C009EAF6E /* OpenSSLForiOSDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB325BFC1DED338C009EAF6E /* Build configuration list for PBXNativeTarget "OpenSSLForiOSDemoTests" */;
+			buildPhases = (
+				AB325BE11DED338C009EAF6E /* Sources */,
+				AB325BE21DED338C009EAF6E /* Frameworks */,
+				AB325BE31DED338C009EAF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB325BE71DED338C009EAF6E /* PBXTargetDependency */,
+			);
+			name = OpenSSLForiOSDemoTests;
+			productName = OpenSSLForiOSDemoTests;
+			productReference = AB325BE51DED338C009EAF6E /* OpenSSLForiOSDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB325BEF1DED338C009EAF6E /* OpenSSLForiOSDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB325BFF1DED338C009EAF6E /* Build configuration list for PBXNativeTarget "OpenSSLForiOSDemoUITests" */;
+			buildPhases = (
+				AB325BEC1DED338C009EAF6E /* Sources */,
+				AB325BED1DED338C009EAF6E /* Frameworks */,
+				AB325BEE1DED338C009EAF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB325BF21DED338C009EAF6E /* PBXTargetDependency */,
+			);
+			name = OpenSSLForiOSDemoUITests;
+			productName = OpenSSLForiOSDemoUITests;
+			productReference = AB325BF01DED338C009EAF6E /* OpenSSLForiOSDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB325BC41DED338C009EAF6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = chengdengwei;
+				TargetAttributes = {
+					AB325BCB1DED338C009EAF6E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					AB325BE41DED338C009EAF6E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB325BCB1DED338C009EAF6E;
+					};
+					AB325BEF1DED338C009EAF6E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB325BCB1DED338C009EAF6E;
+					};
+				};
+			};
+			buildConfigurationList = AB325BC71DED338C009EAF6E /* Build configuration list for PBXProject "OpenSSLForiOSDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB325BC31DED338C009EAF6E;
+			productRefGroup = AB325BCD1DED338C009EAF6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB325BCB1DED338C009EAF6E /* OpenSSLForiOSDemo */,
+				AB325BE41DED338C009EAF6E /* OpenSSLForiOSDemoTests */,
+				AB325BEF1DED338C009EAF6E /* OpenSSLForiOSDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB325BCA1DED338C009EAF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB325BDF1DED338C009EAF6E /* LaunchScreen.storyboard in Resources */,
+				AB325BDC1DED338C009EAF6E /* Assets.xcassets in Resources */,
+				AB325BDA1DED338C009EAF6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB325BE31DED338C009EAF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB325BEE1DED338C009EAF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB325BC81DED338C009EAF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB325BD71DED338C009EAF6E /* ViewController.m in Sources */,
+				AB325BD41DED338C009EAF6E /* AppDelegate.m in Sources */,
+				AB325BD11DED338C009EAF6E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB325BE11DED338C009EAF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB325BEA1DED338C009EAF6E /* OpenSSLForiOSDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB325BEC1DED338C009EAF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB325BF51DED338C009EAF6E /* OpenSSLForiOSDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB325BE71DED338C009EAF6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB325BCB1DED338C009EAF6E /* OpenSSLForiOSDemo */;
+			targetProxy = AB325BE61DED338C009EAF6E /* PBXContainerItemProxy */;
+		};
+		AB325BF21DED338C009EAF6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB325BCB1DED338C009EAF6E /* OpenSSLForiOSDemo */;
+			targetProxy = AB325BF11DED338C009EAF6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB325BD81DED338C009EAF6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB325BD91DED338C009EAF6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB325BDD1DED338C009EAF6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB325BDE1DED338C009EAF6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB325BF71DED338C009EAF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB325BF81DED338C009EAF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB325BFA1DED338C009EAF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenSSLForiOSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelewangluokeji.OpenSSLForiOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB325BFB1DED338C009EAF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenSSLForiOSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelewangluokeji.OpenSSLForiOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB325BFD1DED338C009EAF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenSSLForiOSDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelewangluokeji.OpenSSLForiOSDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenSSLForiOSDemo.app/OpenSSLForiOSDemo";
+			};
+			name = Debug;
+		};
+		AB325BFE1DED338C009EAF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenSSLForiOSDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelewangluokeji.OpenSSLForiOSDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenSSLForiOSDemo.app/OpenSSLForiOSDemo";
+			};
+			name = Release;
+		};
+		AB325C001DED338C009EAF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OpenSSLForiOSDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelewangluokeji.OpenSSLForiOSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenSSLForiOSDemo;
+			};
+			name = Debug;
+		};
+		AB325C011DED338C009EAF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OpenSSLForiOSDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chelewangluokeji.OpenSSLForiOSDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenSSLForiOSDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB325BC71DED338C009EAF6E /* Build configuration list for PBXProject "OpenSSLForiOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB325BF71DED338C009EAF6E /* Debug */,
+				AB325BF81DED338C009EAF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB325BF91DED338C009EAF6E /* Build configuration list for PBXNativeTarget "OpenSSLForiOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB325BFA1DED338C009EAF6E /* Debug */,
+				AB325BFB1DED338C009EAF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB325BFC1DED338C009EAF6E /* Build configuration list for PBXNativeTarget "OpenSSLForiOSDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB325BFD1DED338C009EAF6E /* Debug */,
+				AB325BFE1DED338C009EAF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB325BFF1DED338C009EAF6E /* Build configuration list for PBXNativeTarget "OpenSSLForiOSDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB325C001DED338C009EAF6E /* Debug */,
+				AB325C011DED338C009EAF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB325BC41DED338C009EAF6E /* Project object */;
+}
